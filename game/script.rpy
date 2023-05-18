@@ -1,33 +1,24 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
-
-# The game starts here.
+﻿#here you can define character sprites and backgrounds...
+image chara test = "test chara.png"
+image test bg = "test bg.png"
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+scene test bg
+show chara test at left
 
-    scene bg room
+n2 "hi :-)"
+n2 "this is a very barebones project file tbh..."
+n2 "there is a really good tutorial included with renpy,{w} i recommend checking it out to ge a good idea of how renpy works!!"
+n2 "use the n2 character for most dialogue"
+n1 "and always use n1 before a screen wipe!"
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+nvl clear
 
-    show eileen happy
+show chara test at right
 
-    # These display lines of dialogue.
+n2 "theres also a simple sound effect (/audio/beep.ogg) that plays on loop whenever text appears on screen..."
+n2 "we can make it a beep.. typewriter noise.. bug chirp, whatever!"
+n1 "thats about it lol{w} ask me if you want me to add anything else.. ^^"
 
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
-
-    return
+return

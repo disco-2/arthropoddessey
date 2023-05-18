@@ -433,43 +433,43 @@ translate None strings:
     old "Audio Filename:"
     new "Audio Filename:"
 
-    # renpy/common/00gui.rpy:445
+    # renpy/common/00gui.rpy:435
     old "Are you sure?"
     new "Are you sure?"
 
-    # renpy/common/00gui.rpy:446
+    # renpy/common/00gui.rpy:436
     old "Are you sure you want to delete this save?"
     new "Are you sure you want to delete this save?"
 
-    # renpy/common/00gui.rpy:447
+    # renpy/common/00gui.rpy:437
     old "Are you sure you want to overwrite your save?"
     new "Are you sure you want to overwrite your save?"
 
-    # renpy/common/00gui.rpy:448
+    # renpy/common/00gui.rpy:438
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
     new "Loading will lose unsaved progress.\nAre you sure you want to do this?"
 
-    # renpy/common/00gui.rpy:449
+    # renpy/common/00gui.rpy:439
     old "Are you sure you want to quit?"
     new "Are you sure you want to quit?"
 
-    # renpy/common/00gui.rpy:450
+    # renpy/common/00gui.rpy:440
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
     new "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
 
-    # renpy/common/00gui.rpy:451
+    # renpy/common/00gui.rpy:441
     old "Are you sure you want to end the replay?"
     new "Are you sure you want to end the replay?"
 
-    # renpy/common/00gui.rpy:452
+    # renpy/common/00gui.rpy:442
     old "Are you sure you want to begin skipping?"
     new "Are you sure you want to begin skipping?"
 
-    # renpy/common/00gui.rpy:453
+    # renpy/common/00gui.rpy:443
     old "Are you sure you want to skip to the next choice?"
     new "Are you sure you want to skip to the next choice?"
 
-    # renpy/common/00gui.rpy:454
+    # renpy/common/00gui.rpy:444
     old "Are you sure you want to skip unseen dialogue to the next choice?"
     new "Are you sure you want to skip unseen dialogue to the next choice?"
 
@@ -481,11 +481,11 @@ translate None strings:
     old "Saved screenshot as %s."
     new "Saved screenshot as %s."
 
-    # renpy/common/00library.rpy:230
+    # renpy/common/00library.rpy:211
     old "Skip Mode"
     new "Skip Mode"
 
-    # renpy/common/00library.rpy:316
+    # renpy/common/00library.rpy:297
     old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
     new "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
 
@@ -781,7 +781,7 @@ translate None strings:
     old "Proceed"
     new "Proceed"
 
-    # renpy/common/00compat.rpy:371
+    # renpy/common/00compat.rpy:351
     old "Fullscreen"
     new "Fullscreen"
 
@@ -1105,23 +1105,23 @@ translate None strings:
     old "Type to filter: "
     new "Type to filter: "
 
-    # renpy/common/_developer/developer.rpym:633
+    # renpy/common/_developer/developer.rpym:631
     old "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
     new "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
 
-    # renpy/common/_developer/developer.rpym:637
+    # renpy/common/_developer/developer.rpym:635
     old "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
     new "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
 
-    # renpy/common/_developer/developer.rpym:647
+    # renpy/common/_developer/developer.rpym:645
     old "✔ "
     new "✔ "
 
-    # renpy/common/_developer/developer.rpym:650
+    # renpy/common/_developer/developer.rpym:648
     old "✘ "
     new "✘ "
 
-    # renpy/common/_developer/developer.rpym:655
+    # renpy/common/_developer/developer.rpym:653
     old "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
     new "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
 
@@ -1161,87 +1161,87 @@ translate None strings:
     old "<repr() failed>"
     new "<repr() failed>"
 
-    # renpy/common/00console.rpy:524
+    # renpy/common/00console.rpy:492
     old "Press <esc> to exit console. Type help for help.\n"
     new "Press <esc> to exit console. Type help for help.\n"
 
-    # renpy/common/00console.rpy:528
+    # renpy/common/00console.rpy:496
     old "Ren'Py script enabled."
     new "Ren'Py script enabled."
 
-    # renpy/common/00console.rpy:530
+    # renpy/common/00console.rpy:498
     old "Ren'Py script disabled."
     new "Ren'Py script disabled."
 
-    # renpy/common/00console.rpy:779
+    # renpy/common/00console.rpy:747
     old "help: show this help"
     new "help: show this help"
 
-    # renpy/common/00console.rpy:784
+    # renpy/common/00console.rpy:752
     old "commands:\n"
     new "commands:\n"
 
-    # renpy/common/00console.rpy:794
+    # renpy/common/00console.rpy:762
     old " <renpy script statement>: run the statement\n"
     new " <renpy script statement>: run the statement\n"
 
-    # renpy/common/00console.rpy:796
+    # renpy/common/00console.rpy:764
     old " <python expression or statement>: run the expression or statement"
     new " <python expression or statement>: run the expression or statement"
 
-    # renpy/common/00console.rpy:804
+    # renpy/common/00console.rpy:772
     old "clear: clear the console history"
     new "clear: clear the console history"
 
-    # renpy/common/00console.rpy:808
+    # renpy/common/00console.rpy:776
     old "exit: exit the console"
     new "exit: exit the console"
 
-    # renpy/common/00console.rpy:816
+    # renpy/common/00console.rpy:784
     old "stack: print the return stack"
     new "stack: print the return stack"
 
-    # renpy/common/00console.rpy:838
+    # renpy/common/00console.rpy:806
     old "load <slot>: loads the game from slot"
     new "load <slot>: loads the game from slot"
 
-    # renpy/common/00console.rpy:851
+    # renpy/common/00console.rpy:819
     old "save <slot>: saves the game in slot"
     new "save <slot>: saves the game in slot"
 
-    # renpy/common/00console.rpy:862
+    # renpy/common/00console.rpy:830
     old "reload: reloads the game, refreshing the scripts"
     new "reload: reloads the game, refreshing the scripts"
 
-    # renpy/common/00console.rpy:870
+    # renpy/common/00console.rpy:838
     old "watch <expression>: watch a python expression\n watch short: makes the representation of traced expressions short (default)\n watch long: makes the representation of traced expressions as is"
     new "watch <expression>: watch a python expression\n watch short: makes the representation of traced expressions short (default)\n watch long: makes the representation of traced expressions as is"
 
-    # renpy/common/00console.rpy:907
+    # renpy/common/00console.rpy:875
     old "unwatch <expression>: stop watching an expression"
     new "unwatch <expression>: stop watching an expression"
 
-    # renpy/common/00console.rpy:953
+    # renpy/common/00console.rpy:921
     old "unwatchall: stop watching all expressions"
     new "unwatchall: stop watching all expressions"
 
-    # renpy/common/00console.rpy:974
+    # renpy/common/00console.rpy:942
     old "jump <label>: jumps to label"
     new "jump <label>: jumps to label"
 
-    # renpy/common/00console.rpy:990
+    # renpy/common/00console.rpy:958
     old "short: Shorten the representation of objects on the console (default)."
     new "short: Shorten the representation of objects on the console (default)."
 
-    # renpy/common/00console.rpy:994
+    # renpy/common/00console.rpy:962
     old "long: Print the full representation of objects on the console."
     new "long: Print the full representation of objects on the console."
 
-    # renpy/common/00console.rpy:998
+    # renpy/common/00console.rpy:966
     old "escape: Enables escaping of unicode symbols in unicode strings."
     new "escape: Enables escaping of unicode symbols in unicode strings."
 
-    # renpy/common/00console.rpy:1002
+    # renpy/common/00console.rpy:970
     old "unescape: Disables escaping of unicode symbols in unicode strings and print it as is (default)."
     new "unescape: Disables escaping of unicode symbols in unicode strings and print it as is (default)."
 
