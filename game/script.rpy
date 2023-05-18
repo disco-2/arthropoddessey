@@ -1,7 +1,6 @@
 ﻿#here you can define character sprites and backgrounds...
 image chara test = "test chara.png"
 image test bg = "test bg.png"
-
 label start:
 
 scene test bg
@@ -13,7 +12,6 @@ n2 "there is a really good tutorial included with renpy,{w} i recommend checking
 n2 "use the n2 character for most dialogue"
 n1 "and always use n1 before a screen wipe!"
 
-nvl clear
 
 show chara test at right
 
