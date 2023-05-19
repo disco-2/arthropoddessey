@@ -9,10 +9,12 @@ define n1 = Character(
 #what_prefix="\"", 
 #what_suffix="\"", 
 callback=callback,
+what_color="#ff0000",
 )
 
 define n2 = Character(
 #what_prefix="\"", 
 #what_suffix="\"", 
 callback=callback,
+what_color="#00f",
 )
