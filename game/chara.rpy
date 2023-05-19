@@ -5,14 +5,16 @@ init python:
         elif event == "slow_done" or event == "end":
             renpy.music.stop(channel="sound")
 
-define n1 = Character(
-#what_prefix="\"", 
-#what_suffix="\"", 
+#defualt character, use kind=defaultcharacter on future characters to use these settings as default
+define defaultcharacter = Character(
+ctc="page_ctc",
+ctc_pause="arrow_ctc",
+ctc_position="nestled",
 callback=callback,
 )
 
-define n2 = Character(
-#what_prefix="\"", 
-#what_suffix="\"", 
-callback=callback,
+define testchara = Character(
+"TEST",
+what_color = "#fff",
+kind=defaultcharacter,
 )
