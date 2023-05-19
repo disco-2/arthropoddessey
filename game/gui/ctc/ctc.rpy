@@ -1,7 +1,7 @@
 define arra = 0.17
 
 image arrow_ctc:
-    zoom 1
+    zoom 0.4
     alpha 1
     "/gui/ctc/arrow/n1.png"
     arra
@@ -18,7 +18,7 @@ image arrow_ctc:
 
 define page= 0.17
 image page_ctc:
-    zoom 1
+    zoom 0.4
     "/gui/ctc/page/x1.png"
     page
     "/gui/ctc/page/x2.png"
@@ -39,8 +39,8 @@ image page_ctc:
 define oo = 0.1
 
 image orb_ctc:
-    zoom 2
-    xalign 0.79 yalign 0.97
+    zoom 1.0
+    xalign 0.79 yalign 0.5
     "/gui/ctc/orb/orb1.png"
     oo
     "/gui/ctc/orb/orb2.png"
