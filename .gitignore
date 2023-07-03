@@ -1,21 +1,28 @@
-/.vscode
+### Renpy ###
+# Don't track content of these folders #
+########################################
+game/cache/
+game/saves/
 
-*.rpyc 
-*.rpyb 
-*.rpymc 
-*.pyc 
-*.pyo
 
-*~ 
-*.bak 
-*.odt#
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-game/saves 
-game/tmp 
-game/cache 
-game/env 
-game/_wfCache
+*.rpyc
+*.rpymc
 
-log.txt 
-errors.txt 
+
+# The log file and other misc things #
+######################################
+log.txt
+errors.txt
 traceback.txt
+files.txt
+
+# End of https://www.toptal.com/developers/gitignore/api/renpy
