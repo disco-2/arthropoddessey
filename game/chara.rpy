@@ -21,17 +21,17 @@ what_color = "#000",
 kind=defaultcharacter,
 )
 
-define naja = Character(
+define n = Character(
 "naja",
+what_color = "#11c",
+)
+
+define r = Character(
+"rhue",
 what_color = "#c11",
 )
 
-define rhue = Character(
-"rhue",
-what_color = "#1a1",
-)
-
-define calyx = Character(
+define c = Character(
 "calyx",
-what_color = "#11c",
+what_color = "#1a1",
 )
