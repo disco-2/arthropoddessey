@@ -1,13 +1,12 @@
 ﻿#here you can define character sprites and backgrounds...
-image badlands = "/bg/badlands.png"
-image topPark = "/bg/topPark.png"
-image parkStairs = "/bg/parkStairs.png"
-image greenRoom = "/bg/greenRoom.png"
+image grid = "bg/grid.png"
 image televisionRemote = "/itm/televisionRemote.png"
 label start:
     # year 2578 - text onscreen
     # naja sprite is in /chara, it is called naja_3_1.png
     # show naja_3_1 i this like
+    scene grid
+    
     show naja neutral at left
     n "I wanted to tell you,{w=1} we had a nice time in \"NORTH DAKOTA\""
     # show badlands
