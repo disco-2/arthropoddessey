@@ -20,6 +20,8 @@ label start:
     show naja happy arms out at left
     n "Coming here was a good decision,{w} I'm really glad we made it."
     show calyx confused at center
+    show rhue neutral at right:
+        xzoom -1
     c "A north takotah?"
     # show parkStairs
     show naja confused arms crossed at left
@@ -42,7 +44,7 @@ label start:
     show rhue neutral arm up at right:
         xzoom -1
     r "Hey, naja... {w} A little outpost around here, {w} there were a few things you wanted to retrieve, right?"
-    show naja shocked arms out at left
+    show naja shocked arm up at left
     n "!!! {w} You're right, {w} thats right-! {w} I almost forgot!"
     show calyx happy arms out at center
     c "Oh yeah? {w} It's the light-beam contraption, right??"
